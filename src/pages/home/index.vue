@@ -1,0 +1,18 @@
+<template>
+    <div class="home-page-container">
+       首页
+    </div>
+</template>
+
+<script lang="ts">
+import { defineComponent } from 'vue'
+export default defineComponent({
+    setup() {
+
+    }
+})
+</script>
+
+<style lang="less">
+
+</style>

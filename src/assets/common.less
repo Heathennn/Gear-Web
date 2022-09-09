@@ -1,0 +1,173 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-size: 13px;
+  background: #fff;
+  min-width: 1400px;
+  font-family: PingFangSC-Regular;
+  -webkit-overflow-scrolling : touch;
+  position: relative;
+  overflow: auto;
+  transform: translateZ(0deg);
+}
+
+*:not(input,textarea) {
+  -webkit-touch-callout: none;
+  //-webkit-user-select: none;
+}
+
+a, input, textarea {
+  -webkit-tap-highlight-color: transparent;
+}
+
+[class^="icon"] {
+  font-family: "iconfont" !important;
+  font-size: 18px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon {
+  font-size: 40px;
+}
+input {
+  appearance: none;
+  outline: none;
+  border: 0;
+  background: transparent;
+  padding: 0px;
+  margin: 0px;
+}
+
+.clearfix:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+.mt24 {
+  margin-top: 24px;
+}
+
+.ml24 {
+  margin-left: 24px;
+}
+
+.mr24 {
+  margin-right: 24px;
+}
+.search-form {
+  .ant-input {
+    width: 180px;
+  }
+
+  .mr64 {
+    margin-right: 64px;
+  }
+
+  .mr32 {
+    margin-right: 32px;
+  }
+
+  .ml24 {
+    margin-left: 24px;
+  }
+
+  .mr24 {
+    margin-right: 24px;
+  }
+}
+.search-form{
+
+  margin-bottom: 24px;
+}
+.table-content {
+
+  .ant-pagination {
+    text-align: right;
+    margin-top: 24px;
+  }
+}
+
+.red {
+  color: #EB1934;
+}
+
+.n-layout {
+  height: 100%;
+  .n-layout-header{
+    background: rgba(128, 128, 128, 0.1);
+    padding: 24px;
+  }
+
+  .n-layout-sider {
+    background: rgba(128, 128, 128, 0.1);
+  }
+
+  .n-layout-content {
+    background: rgba(128, 128, 128, 0.14);
+  }
+}
+.ant-table-thead{
+  tr{
+    th{
+      text-align: center;
+      font-weight: 600;
+    }
+  }
+
+}
+
+.page-container {
+  min-height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  padding: 10px;
+  .filters {
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f1f1f1;
+    .config-title {
+      margin-right: 20px;
+    }
+    .update-time {
+        font-size: 14px;
+    }
+  }
+}
+
+.ant-layout {
+  min-height: 100% !important
+}
+
+
+.mr10 {
+  margin-right: 10px;
+}
+
+.config-inputs {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  flex-wrap: wrap;
+  .input-item {
+    margin-right: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    .key {
+      margin-right: 8px;
+    }
+
+    input {
+      display: inline-block;
+      width: 300px
+    }
+  }
+}
